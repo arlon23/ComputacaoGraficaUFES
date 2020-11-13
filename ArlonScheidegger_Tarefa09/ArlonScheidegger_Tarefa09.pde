@@ -33,7 +33,7 @@ void setup() {
   
   arvore.setFill(color(101,150,45));
 }
-
+int i=0;
 void draw() {
   rotateY(0.6);
   ambientLight (50,50,50);
@@ -46,12 +46,16 @@ void draw() {
     directionalLight (255, 255, 255, pmouseX,pmouseY,0);
     save("directionalImage.png");
   }else if(mousePressed == true && mouseButton == CENTER){
-    spotLight (51, 102, 126, 175, 385, 100, 1, 0, 0, 1, 2); 
+    spotLight (255, 255, 255, mouseX, mouseY, 120, 0, 1, 0, 200, 1); 
     save("spotImage.png");
   }
   
    if(keyPressed == true && (key == 'T' || key == 't')){//OPÇÃO 4, TELCA "T" OU "t" QUE TORNA O DISCO COM 3 NIVEIS DE TRANSPARÊNCIA E O TEXTO COM QUEBRA DE LINHA
-    pointLight (51, 102, 126, 467, 280, 100);
+    i = i+4;
+    pointLight (255, 255, 255, i, 280, 100);
+    if(i>600){
+      i=0;
+    }
     save("pointImage.png");
   }
   shape(predio, 290,315);
