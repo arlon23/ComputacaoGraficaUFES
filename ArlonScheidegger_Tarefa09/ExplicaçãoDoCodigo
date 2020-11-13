@@ -1,0 +1,9 @@
+Explicação de ações do programa.
+
+Programa inicialmente inicia com ambientLight (50,50,50); e tem os seguintes comandos.
+
+mouseButton Esquerdo: utiliza o metodo lights().
+mouseButton Direito: utiliza o metodo directionalLight() utilizando pmouseX pmouseY
+mouseButton Center: utiliza o metodo spotLight() utilizando mouseX e mouseY
+
+keyPressed == T || t: utiliza o metodo pointLight() e coloquei uma mudança de posição incrementando o valor da posição x na luz.
