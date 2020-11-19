@@ -1,0 +1,7 @@
+Funcionalidades:
+
+MousePressed : ativa o metodo ortho();
+
+Perpectiva utiliza o scroll do mouse para aproximar/afastar a imagem.
+
+ao rodar o código rodar o scroll para baixo para aparecer o predio.
