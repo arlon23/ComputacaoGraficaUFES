@@ -1,0 +1,17 @@
+Explicação das funções do projeto.
+
+
+metodo mousePressed -> ativa a função ortho();
+
+metodo keyPressed:
+
+"P" ou "p" -> utiliza a função pointLight();
+"D" ou "d" -> utiliza a função directionalLight();
+"S" ou "s" -> utiliza a função spotLight();
+"L" ou "l" -> utiliza a função Lights();
+
+o botão seta LEFT ou Right -> retira a tampa traseira do relógio
+
+
+o mouseWheel da zoom no relógio, quando passa no meio dele da para visualizar a parte de traseira do relógio.
+
